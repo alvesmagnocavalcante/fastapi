@@ -10,6 +10,9 @@ from alembic import context
 from models import Base
 from core.settings import Settings
 
+import models.users
+import models.cars
+
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
